@@ -1,8 +1,11 @@
-package com.apress.prospring5;
+package com.apress.prospring5.advice.before;
 
 import java.lang.reflect.Method;
 
 import org.springframework.aop.MethodBeforeAdvice;
+
+import com.apress.prospring5.SecurityManager;
+import com.apress.prospring5.domain.UserInfo;
 
 public class SecurityAdvice implements MethodBeforeAdvice{
 

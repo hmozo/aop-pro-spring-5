@@ -1,8 +1,11 @@
-package com.apress.prospring5.after;
+package com.apress.prospring5;
 
 import java.util.stream.IntStream;
 
 import org.springframework.aop.framework.ProxyFactory;
+
+import com.apress.prospring5.advice.after.WeakKeyCheckAdvice;
+import com.apress.prospring5.tools.KeyGenerator;
 
 public class AfterAdviceDemo {
 	

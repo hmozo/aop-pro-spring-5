@@ -2,6 +2,9 @@ package com.apress.prospring5;
 
 import org.springframework.aop.framework.ProxyFactory;
 
+import com.apress.prospring5.advice.before.SecurityAdvice;
+import com.apress.prospring5.domain.SecureBean;
+
 public class SecurityDemo {
 	
 	public static void main(String[] args) {

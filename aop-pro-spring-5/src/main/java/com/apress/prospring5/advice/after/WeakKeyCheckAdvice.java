@@ -1,8 +1,10 @@
-package com.apress.prospring5.after;
+package com.apress.prospring5.advice.after;
 
 import java.lang.reflect.Method;
 
 import org.springframework.aop.AfterReturningAdvice;
+
+import com.apress.prospring5.tools.KeyGenerator;
 
 public class WeakKeyCheckAdvice implements AfterReturningAdvice {
 

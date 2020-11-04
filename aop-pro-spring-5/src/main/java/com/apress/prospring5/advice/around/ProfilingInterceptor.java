@@ -1,4 +1,4 @@
-package com.apress.prospring5.around;
+package com.apress.prospring5.advice.around;
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;

@@ -1,4 +1,4 @@
-package com.apress.prospring5;
+package com.apress.prospring5.domain;
 
 public class SecureBean {
 	public void writeSecureMessage() {

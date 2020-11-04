@@ -1,6 +1,9 @@
-package com.apress.prospring5.around;
+package com.apress.prospring5;
 
 import org.springframework.aop.framework.ProxyFactory;
+
+import com.apress.prospring5.advice.around.ProfilingInterceptor;
+import com.apress.prospring5.domain.WorkerBean;
 
 public class ProfilingDemo {
 

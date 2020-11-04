@@ -1,11 +1,11 @@
-package com.apress.prospring5.after;
+package com.apress.prospring5.advice.after;
 
 import java.lang.reflect.Method;
 
 import org.springframework.aop.AfterReturningAdvice;
 import org.springframework.aop.framework.ProxyFactory;
 
-import com.apress.prospring5.Guitarist;
+import com.apress.prospring5.domain.Guitarist;
 
 public class SimpleAfterReturningAdvice implements AfterReturningAdvice{
 	public static void main(String... args) {

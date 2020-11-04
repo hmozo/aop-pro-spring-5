@@ -1,5 +1,7 @@
 package com.apress.prospring5;
 
+import com.apress.prospring5.domain.UserInfo;
+
 public class SecurityManager {
 	
 	private static ThreadLocal<UserInfo> threadLocal= new ThreadLocal<>();

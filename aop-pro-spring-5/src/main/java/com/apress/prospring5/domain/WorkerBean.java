@@ -1,4 +1,4 @@
-package com.apress.prospring5.around;
+package com.apress.prospring5.domain;
 
 import java.util.stream.IntStream;
 
